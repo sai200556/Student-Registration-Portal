@@ -1,0 +1,28 @@
+{
+    "folders": [
+        {
+            "name": "Student Registration Portal",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "salesforcedx-vscode-core.push-or-deploy-on-save.enabled": false,
+        "salesforcedx-vscode-core.retrieve-test-code-coverage": true,
+        "salesforcedx-vscode-apex.java.home": "/usr/lib/jvm/java-11-openjdk",
+        "salesforcedx-vscode-apex.enable-sobject-refresh-on-startup": true,
+        "files.exclude": {
+            "**/.sfdx": true,
+            "**/.sf": true
+        },
+        "editor.formatOnSave": true,
+        "apex.javaHome": "/usr/lib/jvm/java-11-openjdk"
+    },
+    "extensions": {
+        "recommendations": [
+            "salesforce.salesforcedx-vscode",
+            "salesforce.salesforcedx-vscode-apex",
+            "salesforce.salesforcedx-vscode-lightning",
+            "salesforce.salesforcedx-vscode-lwc"
+        ]
+    }
+}
