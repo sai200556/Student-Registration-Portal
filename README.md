@@ -1,29 +1,59 @@
-# Student-Registration-Portal
-from pathlib import Path
-content = """# Student Registration Portal
-**Project Title:** Student Registration Portal – Salesforce CRM Implementation for Universities  
-**Author:** P Sai Lalith
+# Employee Leave Management System
 
----
+A simple Salesforce project demonstrating a full lifecycle implementation of an Employee Leave Management System.
 
 ## Project Overview
-A Salesforce-based Student Registration Portal to digitize and automate the student admission and course enrollment process for a university. The portal provides self-service registration for students, an approval workflow for administrators, course assignment, enrollment tracking, and dashboards for faculty and administrators.
 
-## Status
-- **Phase 1 (Completed):** Problem understanding, requirements, stakeholder analysis, business process mapping, AppExchange exploration.
-- **Phase 2 (Completed):** Org setup & configuration (Developer Org, company info, business hours, users, profiles, roles, permission sets, OWD planning, login/access policies, org-wide email).
-- **Next:** Phase 3 (Data modeling & relationships) — create custom objects and schema.
+Automates leave request submission, approval, tracking, and calendar integration in Salesforce.
+
+## Features
+
+- **Custom Leave_Request object** with record types for leave categories
+- **Approval process** with email alerts
+- **Prevent overlapping leave** via Apex trigger
+- **Lightning Web Component** for easy request submission
+- **Integration** with external calendar API
+- **Reports and dashboards** for management oversight
+
+## Project Phases
+
+1. **Problem Understanding**
+2. **Salesforce Org Setup**
+3. **Data Modeling**
+4. **Process Automation**
+5. **Apex Programming**
+6. **User Interface Development**
+7. **Integration**
+8. **Data Management & Deployment**
+9. **Reporting & Security**
+10. **Final Presentation & Demo**
+
+## Setup Instructions
+
+1. **Sign up** for Salesforce Developer Edition.
+2. **Clone** this repository.
+3. **Deploy** metadata and code using Salesforce DX or Change Sets.
+4. **Configure** Named Credentials for calendar API.
+5. **Import** initial data using Data Loader.
+6. **Test** the application by creating and approving leave requests.
+
+## Usage
+
+- **Employees** can submit leave requests via the custom Lightning Web Component.
+- **HR Managers** receive email alerts and approve leave requests.
+- **Approved leaves** sync with company calendar.
+
+## Technologies Used
+
+- **Salesforce Platform** (Admin + Developer)
+- **Lightning Web Components**
+- **Apex, SOQL**
+- **Salesforce DX, VS Code**
+
+## Author
+
+P Sai Lalith
 
 ---
 
-## Repository Structure (suggested)
-
----
-
-## How to get started (for reviewers / evaluators)
-1. **Sign up for Salesforce Developer Edition**
-   - Visit https://developer.salesforce.com/signup and create a free Developer Org.
-2. **Clone this repository**
-   ```bash
-   git clone <your-repo-url>
-   cd student-registration-portal
+⭐ **If you found this helpful, please give the repo a star!**
